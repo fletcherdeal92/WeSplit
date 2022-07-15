@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C87A4E728810772008A9A07 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5C99CE8E28778B9800D528CC /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C99CE9128778B9800D528CC /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		5C99CE9328778B9800D528CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 		5C99CE8528778B9800D528CC = {
 			isa = PBXGroup;
 			children = (
+				5C87A4E728810772008A9A07 /* README.md */,
 				5C99CE9028778B9800D528CC /* WeSplit */,
 				5C99CE8F28778B9800D528CC /* Products */,
 			);
