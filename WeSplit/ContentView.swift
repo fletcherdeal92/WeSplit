@@ -68,6 +68,7 @@ struct ContentView: View {
                             Text($0, format: .percent)
                         }
                     }
+                    
                 } header: {
                     Text("How much tip do you want to leave?")
                 }
@@ -80,6 +81,7 @@ struct ContentView: View {
                 
                 Section {
                     Text(grandTotal, format: localCurrency)
+                        .foregroundColor((tipPercentage != 0) ? .primary: .red)
                 } header: {
                     Text("Grand total")
                 }
